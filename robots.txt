@@ -1,5 +1,5 @@
 User-agent: * 
 Allow: /
 
-Sitemap: http://www.langzi.fun/sitemap.xml
-Sitemap: http://www.langzi.fun/baidusitemap.xml
+Sitemap: https://bsgun.cn/sitemap.xml
+Sitemap: https://bsgun.cn/baidusitemap.xml
