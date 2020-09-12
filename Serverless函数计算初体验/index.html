@@ -1,0 +1,173 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>阿里云Serverless函数计算领马克杯 | Glume</title><meta name="description" content="刚刚没啥子事咱也去领了个阿里云的马克杯，哈哈哈白嫖成功–活动地址    在活动期间每个用户可挑战两次考试， 每天会增加200的奖品余额，领完即止。 可能凌晨补一次，下午随机补，前一天答完没领到的可以次日再来领取。"><meta name="keywords" content="白嫖,阿里云,活动"><meta name="author" content="Glume"><meta name="copyright" content="Glume"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/3.1.0/img/favicon.webp"><link rel="canonical" href="https://bsgun.cn/Serverless%E5%87%BD%E6%95%B0%E8%AE%A1%E7%AE%97%E5%88%9D%E4%BD%93%E9%AA%8C/"><link rel="preconnect" href="//cdn.jsdelivr.net"><link rel="preconnect" href="//hm.baidu.com"><link rel="preconnect" href="//busuanzi.ibruce.info"><link rel="preconnect" href="//zz.bdstatic.com"><meta name="baidu-site-verification" content="http://data.zz.baidu.com/urls?site=https://bsgun.cn&amp;token=wsapCzjasUXgomeD"><meta name="360-site-verification" content="https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba"><meta property="og:type" content="article"><meta property="og:title" content="阿里云Serverless函数计算领马克杯"><meta property="og:url" content="https://bsgun.cn/Serverless%E5%87%BD%E6%95%B0%E8%AE%A1%E7%AE%97%E5%88%9D%E4%BD%93%E9%AA%8C/"><meta property="og:site_name" content="Glume"><meta property="og:description" content="刚刚没啥子事咱也去领了个阿里云的马克杯，哈哈哈白嫖成功–活动地址    在活动期间每个用户可挑战两次考试， 每天会增加200的奖品余额，领完即止。 可能凌晨补一次，下午随机补，前一天答完没领到的可以次日再来领取。"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/GlumeL/Photos/menhera/4.png"><meta property="article:published_time" content="2020-07-12T06:08:02.000Z"><meta property="article:modified_time" content="2020-09-05T23:39:36.484Z"><meta name="twitter:card" content="summary"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/3.1.0/css/index.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?12d2ac57976e3669135c725b2854f6e4";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  hexoversion: '5.1.1',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: {"limitDay":60,"position":"top","messagePrev":"自从","messageNext":"上次更新以来，文章内容可能已过时。"},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime: '天',
+  date_suffix: {"one_hour":"刚刚","hours":"小时前","day":"天前"},
+  copyright: {"limitCount":50,"languages":{"author":"作者: Glume","link":"链接: ","source":"来源: Glume","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: {"bookmark":{"message_prev":"按","message_next":"键将本页加入书签"},"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"top-center"},
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: true,
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isanchor: true
+};
+
+var saveToLocal = {
+  set: function setWithExpiry(key, value, ttl) {
+    const now = new Date()
+    const expiryDay = ttl * 86400000
+    const item = {
+      value: value,
+      expiry: now.getTime() + expiryDay,
+    }
+    localStorage.setItem(key, JSON.stringify(item))
+    },
+
+  get: function getWithExpiry(key) {
+    const itemStr = localStorage.getItem(key)
+
+    if (!itemStr) {
+      return undefined
+    }
+    const item = JSON.parse(itemStr)
+    const now = new Date()
+
+    if (now.getTime() > item.expiry) {
+      localStorage.removeItem(key)
+      return undefined
+    }
+    return item.value
+  }
+}</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isSidebar: false,
+  postUpdate: '2020-09-06 07:39:36'
+}</script><noscript><style type="text/css">
+#nav {
+  opacity: 1
+}
+.justified-gallery img {
+  opacity: 1
+}
+</style></noscript><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+  }
+}
+
+var autoChangeMode = 'false'
+var t = saveToLocal.get('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (saveToLocal.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><meta name="baidu-site-verification" content="lUhqBJX12d"> <meta name="360-site-verification" content="b5af9f77a56f6580159634d9509d5adf"> <link rel="stylesheet" href="/Static/css/Glume.min.css"><meta name="generator" content="Hexo 5.1.1"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" data-lazy-src="https://q2.qlogo.cn/headimg_dl?dst_uin=1034630181&amp;spec=100" onerror="onerror=null;src='https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/3.1.0/img/friend_404.gif'" alt="avatar"></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">11</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">14</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">4</div></a></div></div></div><hr><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-book"></i><span> 文章</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/archives"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page" href="/tags"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page" href="/categories"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-leaf"></i><span> 扩展</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/GalleryApi"><i class="fa-fw fas fa-images"></i><span> API</span></a></li><li><a class="site-page" target="_blank" rel="external nofollow noopener noreferrer" href="https://cloud.bsgun.cn"><i class="fa-fw fa fa-cloud"></i><span> 云盘</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/cross"><i class="fa-fw fa fa-hourglass-start"></i><span> 时光姬</span></a></div><div class="menus_item"><a class="site-page" href="/links"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about"><i class="fa-fw fa fa-heart card-announcement-animation"></i><span> 关于</span></a></div></div></div></div><div id="body-wrap"><div id="web_bg" data-type="color"></div><header class="post-bg" id="page-header" style="background-image: url(https://cdn.jsdelivr.net/gh/GlumeL/Photos/menhera/4.png)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Glume</a></span><span id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-book"></i><span> 文章</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/archives"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page" href="/tags"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page" href="/categories"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-leaf"></i><span> 扩展</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/GalleryApi"><i class="fa-fw fas fa-images"></i><span> API</span></a></li><li><a class="site-page" target="_blank" rel="external nofollow noopener noreferrer" href="https://cloud.bsgun.cn"><i class="fa-fw fa fa-cloud"></i><span> 云盘</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/cross"><i class="fa-fw fa fa-hourglass-start"></i><span> 时光姬</span></a></div><div class="menus_item"><a class="site-page" href="/links"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about"><i class="fa-fw fa fa-heart card-announcement-animation"></i><span> 关于</span></a></div></div><span class="close" id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">阿里云Serverless函数计算领马克杯</div></div><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2020-07-12T06:08:02.000Z" title="发表于 2020-07-12 14:08:02">2020-07-12</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2020-09-05T23:39:36.484Z" title="更新于 2020-09-06 07:39:36">2020-09-06</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E4%BA%91%E4%B8%8A%E6%B4%BB%E5%8A%A8/">云上活动</a></span></div><div class="meta-secondline"> <span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">90</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>1分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span><span class="post-meta-separator">|</span><span class="post-icons"><i class="fa fa-spinner" id="baidu_icon"></i></span>
+<span id="baidu_result">加载中</span></span></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><p><img src="https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/3.1.0/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/GlumeL/Public/usr/uploads/2020/07/1009769218.webp" alt="白嫖成功"></p>
+<div class="note success"><p><strong>刚刚没啥子事咱也去领了个阿里云的马克杯，哈哈哈白嫖成功–<a target="_blank" rel="external nofollow noopener noreferrer" href="https://developer.aliyun.com/adc/series/fc/">活动地址</a></strong></p>
+</div>
+
+<ul>
+<li><strong>在活动期间每个用户可挑战两次考试，</strong></li>
+<li><strong>每天会增加200的奖品余额，领完即止。</strong></li>
+<li><strong>可能凌晨补一次，下午随机补，前一天答完没领到的可以次日再来领取。</strong></li>
+</ul>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined" rel="external nofollow noopener noreferrer" target="_blank">Glume</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://bsgun.cn/Serverless%E5%87%BD%E6%95%B0%E8%AE%A1%E7%AE%97%E5%88%9D%E4%BD%93%E9%AA%8C/">https://bsgun.cn/Serverless函数计算初体验/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="external nofollow noopener noreferrer">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://bsgun.cn" target="_blank">Glume</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E7%99%BD%E5%AB%96/">白嫖</a><a class="post-meta__tags" href="/tags/%E9%98%BF%E9%87%8C%E4%BA%91/">阿里云</a><a class="post-meta__tags" href="/tags/%E6%B4%BB%E5%8A%A8/">活动</a></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/gh/GlumeL/Photos/menhera/4.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/3.1.0/img/WX.webp" target="_blank" rel="external nofollow noopener noreferrer"><img class="post-qr-code-img" data-lazy-src="https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/3.1.0/img/WX.webp" alt="微信"></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/3.1.0/img/ZFB.webp" target="_blank" rel="external nofollow noopener noreferrer"><img class="post-qr-code-img" data-lazy-src="https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/3.1.0/img/ZFB.webp" alt="支付宝"></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/Z-File/"><img class="prev-cover" data-lazy-src="https://cdn.jsdelivr.net/gh/GlumeL/Photos/menhera/12.png" onerror="onerror=null;src='https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/3.1.0/img/404.jpg'"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Z-File--私人云盘</div></div></a></div><div class="next-post pull-right"><a href="/PacketTracer(%E4%B8%89)/"><img class="next-cover" data-lazy-src="https://cdn.jsdelivr.net/gh/GlumeL/Photos/menhera/4.png" onerror="onerror=null;src='https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/3.1.0/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Packet Tracer思科模拟器入门教程(三)</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相关推荐</span></div><div class="relatedPosts-list"><div><a href="/About-Api/" title="关于API接口--持续分享"><img class="cover" data-lazy-src="https://cdn.jsdelivr.net/gh/GlumeL/Photos/menhera/19.png"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-08-28</div><div class="title">关于API接口--持续分享</div></div></a></div><div><a href="/Api-Random-img/" title="API随机获取图片代码"><img class="cover" data-lazy-src="https://cdn.jsdelivr.net/gh/GlumeL/Photos/menhera/4.png"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-08-28</div><div class="title">API随机获取图片代码</div></div></a></div><div><a href="/GitHub-Desktop/" title="Github Desktop(客户端)安装and汉化"><img class="cover" data-lazy-src="https://cdn.jsdelivr.net/gh/GlumeL/Photos/menhera/20.png"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-09-03</div><div class="title">Github Desktop(客户端)安装and汉化</div></div></a></div></div></div><hr><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By Glume</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="external nofollow noopener noreferrer" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">CDN BY <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.jsdelivr.com/"><b>jsDelivr</b></a> | 部署于 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://coding.net/"><b>Coding</b></a> &amp;&amp; <a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/"><b>Github</b></a><br><a target="_blank" rel="external nofollow noopener noreferrer" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41168102000061"><img class="icp-icon" src="https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/3.1.0/img/icp.png"><span>豫公网安备41168102000061号</span></a>&nbsp;&nbsp;&nbsp;<span><a target="_blank" rel="external nofollow noopener noreferrer" href="http://beian.miit.gov.cn/">豫ICP备20017009</a></span></div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/3.1.0/js/utils.js"></script><script src="https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/3.1.0/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+    window.valine = new Valine({
+      el: '#vcomment',
+      appId: 'DbWI3K5jRmxvFBkafvn62gDD-gzGzoHsz',
+      appKey: 'T5LjW1jpsWKsTa59YmDP6GwI',
+      placeholder: '大佬们，踩一脚？',
+      avatar: 'wavatar',
+      meta: 'nick,mail,link'.split(','),
+      pageSize: '10',
+      lang: 'zh-CN',
+      recordIP: false,
+      serverURLs: '',
+      emojiCDN: '',
+      emojiMaps: "",
+      enableQQ: true,
+      path: window.location.pathname,
+    });
+    if ('nick,mail') { valine.config.requiredFields= 'nick,mail'.split(',') }
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else $.getScript('https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/3.1.0/js/Valine.js', initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) btf.loadComment(document.querySelector('#vcomment'),loadValine)
+  else setTimeout(() => loadValine(), 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script><script async src="https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/3.1.0/js/busuanzi.pure.mini.js"></script></div><script src="https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/3.1.0/js/addFavorite.js"></script><script src="https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/3.1.0/js/domain.js"></script><script src="https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/3.1.0/js/third-party/activate-power-mode.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+document.body.addEventListener('input', POWERMODE);
+</script></div></body></html>
