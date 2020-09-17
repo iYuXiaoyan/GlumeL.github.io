@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://bsgun.cn/Blog-Everyone/</loc>
+    <lastmod>2020-09-17</lastmod>
+  </url>
+  <url>
+    <loc>https://bsgun.cn/Text/</loc>
+    <lastmod>2020-09-17</lastmod>
+  </url>
+  <url>
+    <loc>https://bsgun.cn/About-Api/</loc>
+    <lastmod>2020-09-16</lastmod>
+  </url>
+  <url>
     <loc>https://bsgun.cn/Z-File/</loc>
     <lastmod>2020-09-15</lastmod>
   </url>
@@ -19,14 +31,6 @@
   <url>
     <loc>https://bsgun.cn/GitHub-Desktop/</loc>
     <lastmod>2020-09-15</lastmod>
-  </url>
-  <url>
-    <loc>https://bsgun.cn/Text/</loc>
-    <lastmod>2020-09-13</lastmod>
-  </url>
-  <url>
-    <loc>https://bsgun.cn/About-Api/</loc>
-    <lastmod>2020-09-13</lastmod>
   </url>
   <url>
     <loc>https://bsgun.cn/status/</loc>
