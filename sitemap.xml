@@ -151,13 +151,6 @@
 
   
   <url>
-    <loc>https://bsgun.cn/tags/%E5%9B%BE%E5%83%8F/</loc>
-    <lastmod>2020-09-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://bsgun.cn/tags/API/</loc>
     <lastmod>2020-09-17</lastmod>
     <changefreq>daily</changefreq>
@@ -187,6 +180,13 @@
   
   <url>
     <loc>https://bsgun.cn/tags/%E7%BE%8E%E5%8C%96/</loc>
+    <lastmod>2020-09-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://bsgun.cn/tags/%E5%9B%BE%E5%83%8F/</loc>
     <lastmod>2020-09-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -235,6 +235,13 @@
   </url>
   
   <url>
+    <loc>https://bsgun.cn/tags/%E5%85%B3%E4%BA%8E/</loc>
+    <lastmod>2020-09-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://bsgun.cn/tags/OneDrive/</loc>
     <lastmod>2020-09-17</lastmod>
     <changefreq>daily</changefreq>
@@ -255,13 +262,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://bsgun.cn/tags/%E5%85%B3%E4%BA%8E/</loc>
-    <lastmod>2020-09-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   
   <url>
@@ -273,13 +273,6 @@
   
   <url>
     <loc>https://bsgun.cn/categories/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2020-09-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://bsgun.cn/categories/%E6%95%99%E7%A8%8B/%E7%BE%8E%E5%8C%96/</loc>
     <lastmod>2020-09-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
