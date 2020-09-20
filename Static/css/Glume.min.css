@@ -6,3 +6,6 @@ hr:before{
 	content: '\f7c5'!important;
 	line-height: 0!important;
 }
+.hbe-input-container input{
+	background: none;
+}
